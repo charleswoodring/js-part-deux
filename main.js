@@ -36,6 +36,11 @@ console.log('pie length: ', pie.length);
 console.log('#3', pie.charAt(2));
 console.log('indexof cat' , pie.indexOf)'cat'));
 
+const quote = 'winter is coming';
+const newQuote = Quote.replace(//is/g, "ain't");
+console.log('newQuote', newquote);
+
+
 console.log('hello there');
 
 
