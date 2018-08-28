@@ -21,12 +21,12 @@ a != b // false ne
 const favoriteColor = 'blue';
 const favoriteAnimal = 'bird';
 
-if(favoriteAnimal ==='bird' && favoriteColor === 'blue){
+/*/ if(favoriteAnimal ==='bird' && favoriteColor === 'blue){
     console.log('welcome to the club');
 } else if (favoriteAnimal === 'cat' || favoriteColor === 'red'){
     console.log('$5000 to join')
 } else console.log('go away');
-}
+} */
 
 const hiDiv = document.getElementById('hi');
 console.log(hiDiv);
@@ -39,6 +39,13 @@ console.log('indexof cat' , pie.indexOf)'cat'));
 const quote = 'winter is coming';
 const newQuote = Quote.replace(//is/g, "ain't");
 console.log('newQuote', newquote);
+
+// object
+const fancyObject = {};
+
+fancyObject.color = 'red';
+fancyObject['number'] = 10;
+console.log("fancyObject" = fancyObject);
 
 
 console.log('hello there');
